@@ -10,7 +10,7 @@
 .userInfo{
     display: block;
     width: 20%;
-    height: 77vh;
+    height: 79vh;
     background-color:hsl(235, 45%, 61%);
     margin-bottom: 5%;
     margin-left: 5%;
@@ -51,21 +51,62 @@
     .grid-container {
       width: 100%; /* El grid ocupa todo el ancho disponible */
       grid-template-columns: 1fr;
-      padding-bottom: 50%;
+      margin-top: 2% !important;
       border-bottom: 1px solid black;
+      height: 240vh !important;
+      grid-gap: 0% !important; 
       
     }
     .grid-item {
         width: 90%;
-        height: 23vh; 
+        height: 35vh; 
+        margin-bottom: 0% !important;
+
     }
     .userInfo{
         width:90%;
         margin-top: 8%;
         height: 30vh !important;
+        margin-bottom: 30% !important;
     }
+
     .perfiles{
-      margin-left: 44% !important;
+      margin-left: 40% !important;
+      font-size: 130% !important;
+    }
+    .post-for{
+      margin-top: 6% !important;
+    }
+    
+    .username{
+      margin-top: 2% !important;
+
+    }
+    
+    .email{
+      margin-top: 2% !important;
+    }
+    
+    .userColor{
+      background-color: hsl(226, 43%, 10%);
+      height: 40% !important; 
+      margin-top: 5% !important;
+      border-radius: 6%;
+    }
+    
+    .company{
+      padding-top: 5% !important;
+    }
+
+    .avatar{
+      margin-top: 6% !important;
+    }
+    .but{
+      margin-top: 6%;
+      margin-left: 36% !important;
+    }
+    .post-body{
+      margin-right: 2%;
     }
   }
 
@@ -121,6 +162,7 @@ background-color: dimgray;
 .post-body{
   font-size: 60%;
   margin-left: 4%;
+  margin-right: 2%;
 }
 
 button {
@@ -185,6 +227,7 @@ button:active span::before {
   margin-left: 5%;
   margin-top: 4%;
   margin-bottom: 2%;
+  font-weight: bold;
 }
 
 .avatar{
@@ -213,7 +256,7 @@ button:active span::before {
 .userColor{
   background-color: hsl(226, 43%, 10%);
   height: 40%;
-  margin-top: 37%;
+  margin-top: 40%;
   border-radius: 6%;
 }
 

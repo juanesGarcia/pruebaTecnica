@@ -34,7 +34,9 @@
 
 @media (max-width: 455px) {
   .search {
-    padding-left: 33%;
+    padding-left: 25%;
     margin-bottom: 5%;
+    font-size: 130%;
+
   }
 }
