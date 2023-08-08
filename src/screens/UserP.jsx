@@ -57,7 +57,7 @@ const UserP = ({ filteredUsers, posts }) => {
           </div>
         ))
       ) : (
-        <p>Ningún perfil tiene posts</p>
+        <p className='p'>No se encontro informacion del perfil o perfiles</p>
       )}
     </div>
   );
