@@ -51,23 +51,25 @@
     .grid-container {
       width: 100%; /* El grid ocupa todo el ancho disponible */
       grid-template-columns: 1fr;
-      margin-top: 2% !important;
       border-bottom: 1px solid black;
-      height: 240vh !important;
-      grid-gap: 0% !important; 
+      height: auto !important; /* Cambiado a auto para adaptarse al contenido */
+      grid-gap: 0% !important;  
+      padding-bottom: 8%;
       
     }
     .grid-item {
         width: 90%;
-        height: 35vh; 
         margin-bottom: 0% !important;
+        min-height: 35vh;
+        margin-top: 3%;
+        padding-bottom: 3%;
 
     }
     .userInfo{
         width:90%;
         margin-top: 8%;
         height: 30vh !important;
-        margin-bottom: 30% !important;
+        margin-bottom: 30% !important; /* Ajustado para reducir el espacio inferior */
     }
 
     .perfiles{
@@ -107,6 +109,11 @@
     }
     .post-body{
       margin-right: 2%;
+    }
+    .p{
+      margin-left: 11% !important;
+      height: 62vh !important;
+      margin-top: 30% !important;
     }
   }
 
@@ -268,4 +275,9 @@ button:active span::before {
 .companyName{
   margin-left: 10%;
   padding-top: 5%;
+}
+.p{
+  margin-left: 35%;
+  margin-top: 10%;
+  height: 42vh;
 }
