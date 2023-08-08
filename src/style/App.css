@@ -1,0 +1,40 @@
+.containerS {
+  display: block;
+  align-items: center;
+}
+
+.search {
+  padding-left: 40%;
+  margin-bottom: 2%;
+  padding-top: 5%;
+  font-size: 180%;
+}
+
+.input {
+  width: 90%;
+  border-radius: 1%;
+  border: 1px solid rgb(104, 97, 97);
+  margin-left: 5%;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.total {
+  background-color: hsl(235, 46%, 20%);
+  height: 100%;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+@media (max-width: 455px) {
+  .search {
+    padding-left: 33%;
+    margin-bottom: 5%;
+  }
+}
